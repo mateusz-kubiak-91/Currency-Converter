@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(172, 211, 184);
+    background-image: url(../img/stock.jpg);
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.header__h2 {
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+}
+
+.main__section--form {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.main__section--fieldset {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.main__section--legend {
+    /* width: 100%; */
+    margin-top: 5px;
+    color: rgba(23, 26, 22, 0.7);
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(133, 109, 219, 0.7);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.main__section--baseInput,
+.main__section--formSelectTarget,
+.main__section--resultInput {
+    display: inline-block;
+    padding: 7px;
+    width: 100%;
+    background-color: #fff;
+    min-height: 35px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid rgba(94, 84, 84, 0.5);
+    border-radius: 5px;
+}
+
+.main__section--formText {
+    max-width: 250px;
+    width: 50%;
+    display: inline-block;
+    margin: 4px;
+}
+
+.main__section--button {
+    width: 100%;
+    margin-top: 5px;
+    color: rgba(23, 26, 22, 0.7);
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(133, 109, 219, 0.7);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    transition: .7s;
+}
+
+.main__section--button:hover {
+    color: salmon;
+    background-color: darkgreen;
+}
