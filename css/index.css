@@ -52,12 +52,12 @@ body {
 
 .main__section--baseInput,
 .main__section--formSelectTarget,
-.main__section--resultInput {
+.main__section--resultSpan {
     display: inline-block;
     padding: 7px;
     width: 100%;
     background-color: #fff;
-    min-height: 35px;
+    min-height: 40px;
     font-size: 20px;
     text-align: center;
     border: 1px solid rgba(94, 84, 84, 0.5);
