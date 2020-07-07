@@ -9,14 +9,23 @@ html {
 }
 
 body {
-    background: rgb(172, 211, 184);
     background-image: url(../img/stock.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
     max-width: 550px;
-    margin: 0 auto;
+    margin: 80px auto;
     padding: 25px;
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 10px;
+}
+
+.element {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
 }
 
 .header__h2 {
@@ -44,7 +53,7 @@ body {
     color: rgba(23, 26, 22, 0.7);
     font-size: 18px;
     font-weight: 700;
-    background-color: rgba(133, 109, 219, 0.7);
+    background-color: rgba(109, 138, 219, 0.7);
     border: none;
     border-radius: 5px;
     padding: 8px;
@@ -77,7 +86,7 @@ body {
     color: rgba(23, 26, 22, 0.7);
     font-size: 18px;
     font-weight: 700;
-    background-color: rgba(133, 109, 219, 0.7);
+    background-color: rgba(109, 138, 219, 0.7);
     border: none;
     border-radius: 5px;
     padding: 8px;
@@ -85,6 +94,6 @@ body {
 }
 
 .main__section--button:hover {
-    color: salmon;
-    background-color: darkgreen;
+    color: rgb(145, 72, 64);
+    background-color: rgb(37, 204, 37);
 }
